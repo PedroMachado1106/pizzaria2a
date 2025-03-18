@@ -3,9 +3,9 @@
 function App(){
 
     const [nome, setNome] = useState('Ronaldo');
-
+    const Formulario = () => {
   return (
-    <div>
+    <>
       <h3>Pizzaria 2A</h3>
       <input classNAme= "Nome"
       name = "Nome"
@@ -15,8 +15,17 @@ function App(){
       <button onClick={()=>{alert(nome)}}>
         CLIQUE AQUI
       </button>
-    </div>
+    </>
   )
 }
- 
+
+
+  return (
+      <div>
+        <h3>Pizzaria 2A</h3>
+      <Formulario/>
+      </div>
+    )
+  }
+
 export default App
