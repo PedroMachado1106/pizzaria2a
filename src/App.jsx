@@ -26,8 +26,8 @@ function App(){
       <div>
         <h3>Pizzaria 2A</h3>
       <Formulario texto= "Texto Enviado pelo App"/>
-      <Formulario texto= "São Paulo Meu Amor !!"/>
-      <Formulario texto= "Paulistas freguêses"/>
+      <Formulario texto= "CBUM Meu Amor !!"/>
+      <Formulario texto= "Tricolor Paulista o Maior do Brasil !!sss"/>
       <Formulario/>
 
       </div>
